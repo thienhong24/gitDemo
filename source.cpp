@@ -8,6 +8,12 @@ int hieu(int a, int b);
 	return c;
 }
 
+int tich(int a, int b);
+{
+	int c =0;
+	a *b =c ;
+	return c;
+}
 int main()
 {
 	int a, b;
@@ -16,7 +22,7 @@ int main()
 	cin >> a;
 	cout << "Nhap so nguyen 2: ";
 	cin >> b;
-	cout << "Chon phep toan (+,-) ";
+	cout << "Chon phep toan (+,-,*) ";
 	cin >> phepToan;
 	system("pause");
 	return 0;
